@@ -17,6 +17,11 @@ const HALF_LIFE_PERIOD = 5730;
  * dateSample('WOOT!') => false
  *
  */
+
+
+//Carbon dating
+
+
  function dateSample(sampleActivity) {
 	if (!Number.isFinite(+sampleActivity)|| 15/sampleActivity === Infinity ) {
 	return false
